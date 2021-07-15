@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 launchctl unload //Library/LaunchDaemons/com.julioverne.screendumpd.plist
 launchctl load //Library/LaunchDaemons/com.julioverne.screendumpd.plist

@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-launchctl unload //Library/LaunchDaemons/com.julioverne.screendumpd.plist
+launchctl unload /Library/LaunchDaemons/com.julioverne.screendumpd.plist
 
 exit 0;
